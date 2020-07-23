@@ -1,0 +1,20 @@
+PODS:
+  - Cordova (5.1.1)
+  - cordova-plugin-device (1.1.3):
+    - Cordova (>= 4.3.0)
+
+DEPENDENCIES:
+  - cordova-plugin-device
+
+SPEC REPOS:
+  trunk:
+    - Cordova
+    - cordova-plugin-device
+
+SPEC CHECKSUMS:
+  Cordova: 5490a208d8396a5cdbbba24732cb2f8779123f8e
+  cordova-plugin-device: a8d085e5d9d10712c537e3ef3c8c3e49a35c6a90
+
+PODFILE CHECKSUM: 21f56f9c5a1ee83fe7abe9ca1242932a0fe6c4fa
+
+COCOAPODS: 1.9.3
