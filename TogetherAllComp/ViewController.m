@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"集合";
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    
+    
+    
+    
 }
 
 
