@@ -1,20 +1,80 @@
 PODS:
-  - Cordova (5.1.1)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BeeHive (1.6.0)
+  - Cordova (4.5.4)
   - cordova-plugin-device (1.1.3):
     - Cordova (>= 4.3.0)
+  - TestCompA (0.1.0)
+  - TestCompB (0.1.0):
+    - AFNetworking (~> 2.3)
+    - BeeHive
+    - TestCompB/Controller (= 0.1.0)
+    - TestCompB/Model (= 0.1.0)
+    - TestCompB/View (= 0.1.0)
+  - TestCompB/Controller (0.1.0):
+    - AFNetworking (~> 2.3)
+    - BeeHive
+  - TestCompB/Model (0.1.0):
+    - AFNetworking (~> 2.3)
+    - BeeHive
+  - TestCompB/View (0.1.0):
+    - AFNetworking (~> 2.3)
+    - BeeHive
 
 DEPENDENCIES:
   - cordova-plugin-device
+  - TestCompA (from `https://github.com/zhengchuxin/TestCompA`)
+  - TestCompB (from `https://github.com/zhengchuxin/TestCompB`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BeeHive
     - Cordova
     - cordova-plugin-device
 
-SPEC CHECKSUMS:
-  Cordova: 5490a208d8396a5cdbbba24732cb2f8779123f8e
-  cordova-plugin-device: a8d085e5d9d10712c537e3ef3c8c3e49a35c6a90
+EXTERNAL SOURCES:
+  TestCompA:
+    :git: https://github.com/zhengchuxin/TestCompA
+  TestCompB:
+    :git: https://github.com/zhengchuxin/TestCompB
 
-PODFILE CHECKSUM: 21f56f9c5a1ee83fe7abe9ca1242932a0fe6c4fa
+CHECKOUT OPTIONS:
+  TestCompA:
+    :commit: 6f73bcf68e40e022591d171f12f6651f3b88ff1a
+    :git: https://github.com/zhengchuxin/TestCompA
+  TestCompB:
+    :commit: 74da7c35ce7271feac0b33e9cb5f2cb807f08f89
+    :git: https://github.com/zhengchuxin/TestCompB
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  Cordova: 90a337977b8667a80483f559268c82062b1183da
+  cordova-plugin-device: a8d085e5d9d10712c537e3ef3c8c3e49a35c6a90
+  TestCompA: e2bcea4ccefc413c101fcbce3c6e0e8b10abb879
+  TestCompB: fd2506d23bc0b17ed40d34e0d11a29ddaf4496ac
+
+PODFILE CHECKSUM: 3d346a93bf53e1a2dc9c552d61b1228c962786e3
 
 COCOAPODS: 1.9.3

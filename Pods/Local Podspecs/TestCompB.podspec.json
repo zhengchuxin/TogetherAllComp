@@ -1,0 +1,50 @@
+{
+  "name": "TestCompB",
+  "version": "0.1.0",
+  "summary": "A short description of TestCompB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhengchuxin/TestCompB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengchuxin": "931140318@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhengchuxin/TestCompB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "public_header_files": "TestCompB/Classes/**/*.h",
+  "resource_bundles": {
+    "TestCompB": [
+      "TestCompB/Assets/*.png",
+      "TestCompB/Classes/**/*.{xib,nib,plist,lsc}"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "BeeHive": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Controller",
+      "source_files": "TestCompB/Classes/Controller/*.{h,m}"
+    },
+    {
+      "name": "View",
+      "source_files": "TestCompB/Classes/View/*.{h,m}"
+    },
+    {
+      "name": "Model",
+      "source_files": "TestCompB/Classes/Model/*.{h,m}"
+    }
+  ]
+}

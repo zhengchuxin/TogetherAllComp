@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Cordova" "${PODS_ROOT}/Headers/Public/cordova-plugin-device"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Cordova" "${PODS_CONFIGURATION_BUILD_DIR}/cordova-plugin-device"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Cordova" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-device"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Cordova" -l"cordova-plugin-device" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreLocation" -framework "MobileCoreServices"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BeeHive" "${PODS_ROOT}/Headers/Public/Cordova" "${PODS_ROOT}/Headers/Public/TestCompA" "${PODS_ROOT}/Headers/Public/TestCompB" "${PODS_ROOT}/Headers/Public/cordova-plugin-device"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/BeeHive" "${PODS_CONFIGURATION_BUILD_DIR}/Cordova" "${PODS_CONFIGURATION_BUILD_DIR}/TestCompA" "${PODS_CONFIGURATION_BUILD_DIR}/TestCompB" "${PODS_CONFIGURATION_BUILD_DIR}/cordova-plugin-device"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/BeeHive" -isystem "${PODS_ROOT}/Headers/Public/Cordova" -isystem "${PODS_ROOT}/Headers/Public/TestCompA" -isystem "${PODS_ROOT}/Headers/Public/TestCompB" -isystem "${PODS_ROOT}/Headers/Public/cordova-plugin-device"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"BeeHive" -l"Cordova" -l"TestCompA" -l"TestCompB" -l"cordova-plugin-device" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreLocation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

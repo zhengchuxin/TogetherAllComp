@@ -1,1 +1,0 @@
-../../../Cordova/CordovaLib/Cordova/Cordova.h
